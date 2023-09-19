@@ -33,10 +33,10 @@ def index():
             print(prod_html)
             commentboxes = prod_html.find_all('div', {'class': "_16PBlm"})
 
-            filename = searchString + ".csv"
-            fw = open(filename, "w")
-            headers = "Product, Customer Name, Rating, Heading, Comment \n"
-            fw.write(headers)
+            #filename = searchString + ".csv"
+            #fw = open(filename, "w")
+            #headers = "Product, Customer Name, Rating, Heading, Comment \n"
+            #fw.write(headers)
             reviews = []
             for commentbox in commentboxes:
                 try:
@@ -75,7 +75,7 @@ def index():
             logging.info("log my final result {}".format(reviews))
 
             
-            client = pymongo.MongoClient("mongodb+srv://pwskills:pwskills@cluster0.ln0bt5m.mongodb.net/?retryWrites=true&w=majority")
+            client = pymongo.MongoClient("mongodb+srv://mishraharshit712:1q2w3e4r5t6y@cluster0.fbmgzr8.mongodb.net/?retryWrites=true&w=majority")
             db =client['scrapper_eng_pwskills']
             coll_pw_eng = db['scraper_pwskills_eng']
             coll_pw_eng.insert_many(reviews)

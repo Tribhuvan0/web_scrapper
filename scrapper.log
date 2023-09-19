@@ -5450,3 +5450,19 @@ INFO:root:log my final result [{'Product': 'iphone12pro', 'Name': 'Vinit Kar', '
 INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 19:09:37] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 19:09:37] "[33mGET /style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 19:09:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.20:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.45 - - [19/Sep/2023 12:25:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [19/Sep/2023 12:25:00] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [19/Sep/2023 12:25:00] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [19/Sep/2023 12:25:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'laptop', 'Name': 'Krutika Sutar', 'Rating': '4', 'CommentHead': 'Delightful', 'Comment': 'Excellent 👍This Laptop is worth the money. It is available with 4gb ram and has 64 and 128 gb storage option. It is a big version of Android mobile with a keypad. Sound and display quality is good. Works smoothly. All the Android apps are available and works well.Best for Study purpose. Good for basic use.'}, {'Product': 'laptop', 'Name': 'Sonu Mishra', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Nose'}, {'Product': 'laptop', 'Name': 'Debasish  Roy', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Awesome product, Awesome Dizzine,Awesome Batery, Super fast charge'}, {'Product': 'laptop', 'Name': 'Shantanu Pathak', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Good laptop in this price, Light weight and portable, Good for students.'}, {'Product': 'laptop', 'Name': 'Sourav Kumar', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Very good product in this price'}, {'Product': 'laptop', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'AWESOME'}, {'Product': 'laptop', 'Name': 'Sombir yadav', 'Rating': '1', 'CommentHead': 'Absolute rubbish!', 'Comment': "Very poor quality 😢,Don't buy any, I made the biggest mistake.😢😢😢"}, {'Product': 'laptop', 'Name': 'Jayesh Maheriya ', 'Rating': '1', 'CommentHead': 'Hated it!', 'Comment': 'One day hieg thase'}, {'Product': 'laptop', 'Name': 'saurav  mandal', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Good product6 hrs normally battery backup.And also performance is super.'}, {'Product': 'laptop', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Over all good product ....value for money  and battrry back is around good and 5 to 6 hours  approximate'}, {'Product': 'laptop', 'Name': 'Flipkart Customer', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Over all good product ....value for money  and battrry back is around good and 5 to 6 hours  approximate'}]
+INFO:root:Username and password must be escaped according to RFC 3986, use urllib.parse.quote_plus
+INFO:werkzeug:172.18.0.45 - - [19/Sep/2023 12:25:05] "POST /review HTTP/1.1" 200 -
